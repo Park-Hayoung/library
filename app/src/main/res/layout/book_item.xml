@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="나는 바르셀로나를 떠나고 싶다"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/tv_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lionel Messi"
+            android:textSize="12sp"
+            android:textColor="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="|"
+            android:textSize="12sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"/>
+
+        <TextView
+            android:id="@+id/tv_publisher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="바셀출판사"
+            android:textSize="12sp"
+            android:textColor="@android:color/darker_gray"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="도서번호:"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/tv_b_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="12sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="상태:"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/tv_b_stat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="대여가능"
+            android:textSize="12sp"
+            android:textColor="@android:color/holo_green_light"
+            android:layout_marginLeft="5dp" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+
+</LinearLayout>
